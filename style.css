@@ -1,0 +1,527 @@
+@import url('./font_stile.css');
+*{
+    font-family: 'Golos';
+}
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    background-color:#141414 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    flex-direction: column;
+
+}
+.container-fluid{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    width: 1200px;
+
+}
+.container-fluid-anknown h5{
+    font-weight: 800;
+    font-size: 50px;
+}
+.container-fluid-anknown p{
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.container-fluid-anknown .button{
+    height: 55px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0 30px;
+    margin-right: 10px;
+    background: linear-gradient(to right,#0152D4, #6EB0FB);
+    border:none;
+    width: 248px;
+}
+.container-fluid-anknown .anknown{
+    color: #989898 !important;
+}
+a.card-link{
+    text-decoration: none;
+}
+.button2{
+    height: 50px;
+    background: linear-gradient(to right, #12284b75, #6eb0fb30);
+    width: 50px;
+    border:none;
+    border-radius: 5px;
+}
+.ssilki{
+    display: flex;
+    align-items: center;
+    width: 434px;
+}
+.container-fluid-anknown .trailer{
+    height: 47px;
+    margin-right: 10px;
+    padding:0 10px;
+    background: linear-gradient(to right, #12284b75, #6eb0fb30);
+    width: 122px;
+
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.container-fluid-anknown h6.class{
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+.card1{
+    width: 26rem;
+}
+.card1 .class{
+    width: 50px;
+}
+.card1 .card-subtitle{
+    width: calc(100%-50px) !important;
+}
+.r{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-expand-md.navbar.navbar-light.bg-light.sticky-top{
+   background-color:#141414 !important;
+   width: 200%;
+
+}
+a.navbar-brand{
+    text-transform: uppercase;
+    color: #6fb1fc !important;
+    font-weight: 700;
+}
+.collapse.navbar-collapse{
+    display: flex;
+    justify-content: space-between;
+}
+.container-fluid-anknown{
+    background-image: url(./img/img/1.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    margin: 0 0 100px 0;
+    border-radius: 10px;
+}
+.nav-item{
+    font-weight: 200;
+}
+.ml-auto img{
+    padding-right: 5px;
+}
+div.card-body{
+    background-color: #ffffff00;
+}
+div.card1{
+    background-color: #ffffff00;
+    transform: translateY(-100px) translateX(100px);
+
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, a {
+    color: rgb(255, 255, 255) !important;
+}
+h5.card-title{
+    text-transform: uppercase;
+}
+.section-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+.section-card .card img{
+    border-radius: 10px;
+}
+.section-card h2{
+    margin-bottom: 50px;
+    display: flex;
+    font-size: 45px;
+    align-self: self-start;
+    justify-self: flex-start;
+}
+.reki{
+    display: flex;
+    flex-direction: row;
+    align-items: center;justify-content: space-between;
+    width: 100%;
+}
+.reki .card-body{
+    padding: 10px 0%;
+    font-size: 20px;
+}
+.reki .card-body p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card-subtitle.mb-2.text-body-secondary{
+    color: #989898 !important;
+}
+div .card{
+    background-color: #ffffff00;
+}
+.container-fluid-space{
+    background-image: url(./img/img/6.jpg);
+    background-repeat: no-repeat;
+    height: 513px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-size:cover;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+.container-fluid-space .card{
+    width: 33rem !important;
+    transform: translateX(100px);
+    border: 0cm;
+} 
+.container-fluid-space h5{
+    font-size: 50px;
+}
+.container-fluid-space button{
+    height: 55px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+    background: linear-gradient(to right,#0152D4, #6EB0FB);
+    border:none;
+    width: 248px;
+}
+p.card-text{
+    font-weight: 200;
+    font-size: 18px;
+}
+div.cartochka div.card{
+    width: 33rem !important;
+    padding-right: 10px;
+}
+div.cartochka img{
+    border-radius: 10px;
+}
+.container-fluid-ansleep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.cartochka{
+    display: flex;
+    flex-direction: row;
+
+}
+.cartochka .otkr{
+    margin: 10px 0;
+    margin-right: 70px;
+    border-radius: 20px;
+    background:  linear-gradient(to right,#F9502E, #F0971A);
+    height: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cartochka h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.cartochka h4{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.cartochka .card-text{
+    margin: 1rem 0;
+}
+.cartochka h3{
+    font-size: 45px;
+}
+.sm button{
+    height: 55px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0 30px;
+    margin-right: 10px;
+    background: linear-gradient(to right,#0152D4, #6EB0FB);
+    border:none;
+    width: 220px;
+}
+.cartochka a.card-link{
+    height: 50px;
+
+}
+.sm{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+button.button1{
+    height: 55px;
+    margin-right: 10px;
+    padding:0 10px;
+    background: linear-gradient(to right, #12284b75, #6eb0fb30);
+    width: 50px;
+}
+.cartochka .trailer{
+    height: 55px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding:0 10px;
+    background: linear-gradient(to right, #12284b75, #6eb0fb30);
+    width: 122px;
+    border-radius: 5px;
+    display: flex;
+    
+}
+.cartochka .trailer a.card-link{
+    margin-top: 16px;
+}
+.mini .cifri-big{
+    background: linear-gradient(to right,#0152D4, #6EB0FB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.mini .cifri{font-weight: 200;}
+.r1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.r1 .class1{
+    width: 50px;
+}
+
+.section-details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+div.radio{
+    width: 33rem;
+    padding-right: 15px;
+}
+.section-details .img{
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.perecluch p{
+    font-weight: 200;
+}
+label{
+    text-transform: uppercase;
+    margin-right: 10PX;
+}
+.section-details img{
+    border-radius:5px;
+}
+.section-details .text{
+    display: none;
+}
+#input1:checked ~ .perecluch .text1,
+#input2:checked ~ .perecluch .text2,
+#input3:checked ~ .perecluch .text3{
+    display: block;
+}
+#input1:checked ~  #label1,
+#input2:checked ~  #label2,
+#input3:checked ~  #label3{
+    text-decoration: underline;
+}
+.radio input{
+display: none;
+}
+.televizor{
+    background-color: #1F1F1F !important;
+    width: 1000%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.televizor h5{
+    text-transform: none;
+    font-size: 25px;
+}
+.televizor .card-text{
+    margin: 20px 0;
+}
+.televizor .cifri-big{
+    font-size: 30px;
+}
+.televizor .mini{
+width: 200px;
+}
+.televizor .cifri-big{
+    margin-bottom: 0;
+}
+div.row.g-0{
+    width: 1200px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.col-md-8{
+    width: 500px;
+    padding-left: 50px;
+}
+img.img-fluid.rounded-start{
+    size: 110%;
+}
+.col-md-8 div.static{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section-form p{
+    width: 600px;
+    font-weight: 200;
+    padding: 10px 0;
+}
+.section-form label{
+    text-transform: none;
+    font-weight: 200
+}
+.section-form{
+    width: 1200px;
+    margin: 100px 0;
+}
+.section-form button{
+    background: linear-gradient(to right,#0152D4, #6EB0FB);
+}
+.form-container .mb-3{
+    width: 500px;
+}
+.podpiska{
+    font-size: 4rem;
+}
+.section-form .form-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.form-control{
+    background-color: transparent !important;
+    color: #FFFFFF !important;
+    border-radius: 2px !important;
+    height: 50PX;
+}
+.form-control:focus{
+    background-color: transparent !important;
+
+}
+.form-control:before{
+    background-color: transparent !important;
+
+}
+
+input#exampleInputPassword1.form-control{
+    background-color: transparent !important;
+}
+.section-form form{
+    padding-right: 50px;
+    width: 700px;
+}
+.section-form .tarif{
+    margin: 0;
+}
+.cheks{
+    margin-bottom: 15px;
+}
+.months{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+    transform: translateY(-40px);
+}
+label.form-check-label{
+    width: 422px;
+    margin-bottom: 20px;
+}
+.cheks .form-check-label{
+    width: auto;
+}
+.section-form .cheks{
+    display: flex;
+}
+.months .rub{
+    width: 200px;
+    margin-bottom: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #12284b75, #6eb0fb30);
+    
+}
+.form-container button{
+    padding: 20px 40px;
+}
+.months p, .months h3{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+label{
+    color: white;
+}
+.section-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+footer{
+    width: 1000%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F1F1F;
+    padding: 20px 0;
+}
+footer img{
+    padding: 0 5px;
+}
+.section-footer p{
+   font-weight: 200;
+}
+
+

@@ -1,0 +1,18 @@
+@font-face {
+    font-family:"Golos" ;
+    src: url(./fonts/fonts/Golos-Text_Bold.ttf);
+    font-weight:700;
+    font-style: bold;
+}
+@font-face {
+    font-family:"Golos" ;
+    src: url(./fonts/fonts/Golos-Text_DemiBold.ttf);
+    font-weight:500;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Golos" ;
+    src: url(./fonts/fonts/Golos-Text_Regular.ttf);
+    font-weight: 200;
+    font-style: thin;
+}
